@@ -1,11 +1,68 @@
+/* Page Header Text Setup*/
 header h4 {
 	text-align: center; 
 }
 
+/* Page Header Setup */
 header {
 	padding:3px;
 	background: darkblue;
 	color: white; 
 	font-size:20px;
 	font-family: "Times New Roman", Times, serif;
+}
+
+/* Page Title Setup */
+.page-title{
+	font-family: "Times New Roman", Times, serif;
+	font-size:23px;
+	background-color: #f2f2f2;
+	border: 2px solid darkblue;
+	padding:10px;
+	text-align: center;
+}
+
+/* Text Based Input */
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid lightblue;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+/* Submit Button Input */
+input[type=submit] {
+  	width: 100%;
+  	background-color: #4CAF50;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+/* Date of Birth Input */
+input[type=date]{
+	width:20%;
+	border: 1px solid lightblue;
+	display: inline-block;
+	margin: 5px 0;
+	padding: 5px 5px;
+	box-sizing: border-box;
+}
+
+/* Submit Input Hover */
+input[type=submit]:hover {
+  	background-color: #45a049;
+}
+
+/* Overall Form Setup */
+div {
+  	border-radius: 5px;
+  	background-color: #f2f2f2;
+  	padding: 20px;
 }
