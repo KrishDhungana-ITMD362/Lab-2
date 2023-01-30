@@ -55,6 +55,16 @@ input[type=date]{
 	box-sizing: border-box;
 }
 
+/* Email Address Input */
+input[type=email]{
+	width:20%;
+	border: 1px solid lightblue;
+	display: inline-block;
+	margin: 5px 0;
+	padding: 8px 5px;
+	box-sizing: border-box;
+}
+
 /* Submit Input Hover */
 input[type=submit]:hover {
   	background-color: #45a049;
