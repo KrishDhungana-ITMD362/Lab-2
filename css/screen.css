@@ -1,0 +1,11 @@
+header h4 {
+	text-align: center; 
+}
+
+header {
+	padding:3px;
+	background: darkblue;
+	color: white; 
+	font-size:20px;
+	font-family: "Times New Roman", Times, serif;
+}
