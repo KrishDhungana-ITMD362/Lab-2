@@ -4,8 +4,9 @@
   <title>Lab 2</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-  <link rel="stylesheet" media="screen" href="css/reset.css" />
-  <link rel="stylesheet" media="screen" href="css/screen.css" />
+    <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css.css" />
+
 </head>
 <body>
 	<header>
@@ -28,7 +29,8 @@
 			<label for="emails">Enter Email Address(es):</label><br>
 			<input type= "email" id="emails" name="emails" multiple placeholder="Your email(s) here, use commas to separate"><br>
 			
-			
+			<label for="phone"> Enter your phone number:</label><br>
+			<input type= "tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Format: 123-456-7890"><br>			
 			
 			<input type="submit" value="Submit">
 		</form>

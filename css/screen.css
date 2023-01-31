@@ -76,3 +76,13 @@ div {
   	background-color: #f2f2f2;
   	padding: 20px;
 }
+
+/* Phone Number Input */
+input[type=tel]{
+	width:20%;
+	border: 1px solid lightblue;
+	display: inline-block;
+	margin: 5px 0;
+	padding: 8px 5px;
+	box-sizing: border-box;
+}
